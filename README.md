@@ -6,6 +6,8 @@
 
 ## Quick Install
 
+> Currently, it only supports running on Ubuntu 20.04+ operating system.
+
 ```shell
 go get github.com/geekros/robotchain
 ```
@@ -27,6 +29,12 @@ The inspiration for this project comes from [LangChain](https://github.com/hwcha
 > Large language models (LLMs) have a wide range of applications, but RobotChain mainly provides support and assistance in these main areas:
 
 - Content editing in progress...
+
+## 🛸 Build
+
+> Currently, it only supports running on Ubuntu 20.04+ operating system.
+
+
 
 ## 💁 Contributing
 
