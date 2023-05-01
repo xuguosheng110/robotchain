@@ -1,0 +1,10 @@
+.idea
+.DS*
+.git
+.vscode
+main
+template/node_modules
+template/yarn.lock
+install
+build
+log
