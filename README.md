@@ -18,7 +18,7 @@ go get github.com/geekros/robotchain
 
 - ✨ The inspiration for this project comes from [LangChain](https://github.com/hwchase17/langchain).
 
-- 🧬 RobotChain is developed and built based on GoLang, Vue+Vite+Typescript, Python, and ROS2. It runs on the Ubuntu operating system.
+- 🧬 RobotChain is developed and built based on `GoLang`, `Vue+Vite+Typescript`, `Python`, and `ROS2`. It runs on the `Ubuntu` operating system.
 
 ## 📖 Documentation
 
