@@ -6,4 +6,6 @@
 
 ## Quick Install
 
-`go get github.com/geekros/robotchain`
+```shell
+go get github.com/geekros/robotchain
+```
