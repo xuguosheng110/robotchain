@@ -8,7 +8,7 @@
 
 > Large language models (LLMs) are becoming a transformative technology that enables developers to build applications previously unattainable. However, using LLMs in isolation is often insufficient to create a truly powerful application. The real power comes from combining them with other sources of computation or knowledge - the exploration of their integration with robotics is just beginning.
 
-- 🧬 RobotChain is developed and built based on `GoLang`, `Vue+Vite+Typescript`, `Python`, and `ROS2`. It runs on the `Ubuntu` operating system.
+- 🧬 RobotChain is developed and built based on `GoLang`, `Vue + Vite + Typescript`, `Python`, and `ROS2`. It runs on the `Ubuntu` operating system.
 
 - ✨ The inspiration for this project comes from [LangChain](https://github.com/hwchase17/langchain).
 
