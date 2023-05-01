@@ -16,13 +16,13 @@
 
 > Please see [here](https://geekros.github.io) for full documentation on:
 
-- ✏ Content editing in progress...
+✏ Content editing in progress...
 
 ## 🚀 What can this help with?
 
 > Large language models (LLMs) have a wide range of applications, but RobotChain mainly provides support and assistance in these main areas:
 
-- ✏ Content editing in progress...
+✏ Content editing in progress...
 
 ## Quick Install
 
