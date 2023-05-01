@@ -20,7 +20,14 @@ The inspiration for this project comes from [LangChain](https://github.com/hwcha
 
 > Please see [here](https://geekros.github.io) for full documentation on:
 
-- Getting started (installation, setting up the environment, simple examples)
-- How-To examples (demos, integrations, helper functions)
-- Reference (full API docs)
-- Resources (high-level explanation of core concepts)
+- Content editing in progress...
+
+## 🚀 What can this help with?
+
+> Large language models (LLMs) have a wide range of applications, but RobotChain mainly provides support and assistance in these main areas:
+
+- Content editing in progress...
+
+## 💁 Contributing
+
+> RobotChain is currently in its early stage and does not accept any external contributions at the moment. If you encounter any issues during use, please feel free to submit them in the issues section.
