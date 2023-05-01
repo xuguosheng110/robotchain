@@ -3,5 +3,5 @@
 .git
 .vscode
 main
-template/node_modules
-template/yarn.lock
+node_modules
+yarn.lock
