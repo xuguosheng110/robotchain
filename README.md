@@ -16,21 +16,21 @@ go get github.com/geekros/robotchain
 
 > Large language models (LLMs) are becoming a transformative technology that enables developers to build applications previously unattainable. However, using LLMs in isolation is often insufficient to create a truly powerful application. The real power comes from combining them with other sources of computation or knowledge - the exploration of their integration with robotics is just beginning.
 
-- The inspiration for this project comes from [LangChain](https://github.com/hwchase17/langchain).
+- ✨ The inspiration for this project comes from [LangChain](https://github.com/hwchase17/langchain).
 
-- RobotChain is developed and built based on GoLang, Vue+Vite+Typescript, Python, and ROS2.
+- 🧬 RobotChain is developed and built based on GoLang, Vue+Vite+Typescript, Python, and ROS2. It runs on the Ubuntu operating system.
 
 ## 📖 Documentation
 
 > Please see [here](https://geekros.github.io) for full documentation on:
 
-- Content editing in progress...
+- ✏ Content editing in progress...
 
 ## 🚀 What can this help with?
 
 > Large language models (LLMs) have a wide range of applications, but RobotChain mainly provides support and assistance in these main areas:
 
-- Content editing in progress...
+- ✏ Content editing in progress...
 
 ## 🛸 Build
 
