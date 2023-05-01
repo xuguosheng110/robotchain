@@ -16,7 +16,6 @@ type config struct {
 }
 
 func Init() {
-
 	// 框架基础信息配置
 	Get.Name = "RobotChain"
 	Get.Version = "1.0.0"

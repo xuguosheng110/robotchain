@@ -8,7 +8,7 @@
 package Command
 
 import (
-	ServiceCommand "RobotChain/framework/command/service"
+	"RobotChain/framework/command/service"
 	"RobotChain/framework/command/version"
 	"RobotChain/framework/config"
 	"github.com/gookit/color"
