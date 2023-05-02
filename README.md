@@ -28,7 +28,9 @@
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
 
-✏ Content editing in progress...
+```shell
+sudo curl -s https://cdn.geekros.com/robotchain/install.sh|bash
+```
 
 ## 🛸 Build
 
