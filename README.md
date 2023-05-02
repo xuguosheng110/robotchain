@@ -60,8 +60,9 @@ sudo apt -y update && sudo apt -y install robotchain
 
 #### ➡ Compilation environment requirements:
 
-- Golang Version ≥ 1.18.0
-- Python Version ≥ 3.8.0
+> Golang Version ≥ 1.18.0
+
+> Python Version ≥ 3.8.0
 
 #### ➡ Explanation of source code directory structure:
 
