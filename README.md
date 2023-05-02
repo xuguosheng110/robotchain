@@ -36,7 +36,7 @@
 sudo curl -s https://cdn.geekros.com/robotchain/install.sh|bash
 ```
 
-> Alternatively, you can also deploy using the following method:
+> 🪄 Alternatively, you can also deploy using the following method:
 
 ```shell
 sudo touch /etc/apt/sources.list.d/geekros.list
