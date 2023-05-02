@@ -8,6 +8,7 @@
 package Command
 
 import (
+	ModelCommand "RobotChain/framework/command/model"
 	"RobotChain/framework/command/service"
 	"RobotChain/framework/command/version"
 	"RobotChain/framework/config"
@@ -28,11 +29,11 @@ func Init() {
 	// 隐藏内置Completion命令行工具
 	command.CompletionOptions.HiddenDefaultCmd = true
 
-	// 获取当前版本信息
 	command.AddCommand(VersionCommand.Start(Config.Get.Name, Config.Get.Version))
 
-	// 启动核心服务
 	command.AddCommand(ServiceCommand.Start())
+
+	command.AddCommand(ModelCommand.Models())
 
 	if err := command.Execute(); err != nil {
 		os.Exit(1)
