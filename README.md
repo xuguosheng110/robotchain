@@ -54,11 +54,19 @@ echo "deb [signed-by=/usr/share/geekros/pgp-key.public] https://ubuntu.geekros.c
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
 
-#### Compilation environment requirements:
+#### ➡ Compilation environment requirements:
 
-1. Golang Version 1.18+
+- Golang Version 1.18+
+- Python Version 3.8+
 
-2. Python Version 3.8+
+#### ➡ Explanation of source code directory structure:
+
+``` python
+├─robotchain
+│  ├─framework # Coreframework based on Golang
+│  ├─package # Common function packages based on ROS2.
+│  ├─template # Front-end web UI
+```
 
 ✏ Content editing in progress...
 
