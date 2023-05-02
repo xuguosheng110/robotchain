@@ -43,7 +43,7 @@ sudo touch /etc/apt/sources.list.d/geekros.list
 ```
 
 ```shell
-sudo wget -q -P /usr/share/geekros/ https://cdn.geekros.com/geek/install/pgp-key.public
+sudo wget -q -P /usr/share/geekros/ https://cdn.geekros.com/robotchain/pgp-key.public
 ```
 
 ```shell
