@@ -36,7 +36,19 @@
 sudo curl -s https://cdn.geekros.com/robotchain/install.sh|bash
 ```
 
-> 
+> Alternatively, you can also deploy using the following method:
+
+```shell
+sudo touch /etc/apt/sources.list.d/geekros.list
+```
+
+```shell
+sudo wget -q -P /usr/share/geekros/ https://cdn.geekros.com/geek/install/pgp-key.public
+```
+
+```shell
+echo "deb [signed-by=/usr/share/geekros/pgp-key.public] https://ubuntu.geekros.com/ubuntu-ports/ focal main" | sudo tee /etc/apt/sources.list.d/geekros.list
+```
 
 ## 🛸 Build
 
