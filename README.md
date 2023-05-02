@@ -8,6 +8,10 @@
 
 > Large language models (LLMs) are becoming a transformative technology that enables developers to build applications previously unattainable. However, using LLMs in isolation is often insufficient to create a truly powerful application. The real power comes from combining them with other sources of computation or knowledge - the exploration of their integration with robotics is just beginning.
 
+> RobotChain is an open-source development framework based on universal robotics and general artificial intelligence technologies, serving as the cornerstone of the integration of universal robotics and general artificial intelligence.
+
+> RobotChain empowers the development and application of universal robotics and general artificial intelligence to become simpler.
+
 - 🧬 RobotChain is developed and built based on `GoLang`, `Vue + Vite + Typescript`, `Python`, and `ROS2`. It runs on the `Ubuntu` operating system.
 
 - ✨ The inspiration for this project comes from [LangChain](https://github.com/hwchase17/langchain).
@@ -32,11 +36,11 @@
 sudo curl -s https://cdn.geekros.com/robotchain/install.sh|bash
 ```
 
+> 
+
 ## 🛸 Build
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
-
-
 
 ## 💁 Contributing
 
