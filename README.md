@@ -50,6 +50,10 @@ sudo wget -q -P /usr/share/geekros/ https://cdn.geekros.com/robotchain/pgp-key.p
 echo "deb [signed-by=/usr/share/geekros/pgp-key.public] https://ubuntu.geekros.com/ubuntu-ports/ focal main" | sudo tee /etc/apt/sources.list.d/geekros.list
 ```
 
+```shell
+sudo apt -y update && sudo apt -y install robotchain
+```
+
 ## 🛸 Build
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
