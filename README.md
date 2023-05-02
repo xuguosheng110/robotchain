@@ -54,6 +54,12 @@ echo "deb [signed-by=/usr/share/geekros/pgp-key.public] https://ubuntu.geekros.c
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
 
+- Golang Version 1.18+
+
+- Python Version 3.8+
+
+✏ Content editing in progress...
+
 ## 💁 Contributing
 
 > RobotChain is currently in its early stage and does not accept any external contributions at the moment. If you encounter any issues during use, please feel free to submit them in the issues section.
