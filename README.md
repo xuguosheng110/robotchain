@@ -6,7 +6,7 @@
 
 ## 🤔 What is this?
 
-> Large language models (LLMs) are becoming a transformative technology that enables developers to build applications previously unattainable. However, using LLMs in isolation is often insufficient to create a truly powerful application. The real power comes from combining them with other sources of computation or knowledge - the exploration of their integration with robotics is just beginning.
+> Large language models (LLMs) are becoming a transformative technology that enables developers to build applications previously unattainable. However, using LLMs in isolation is often insufficient to create a truly powerful application. The real power comes from combining them with other sources of computation or knowledge - *the exploration of their integration with robotics is just beginning*.
 
 > RobotChain is an open-source development framework based on universal robotics and general artificial intelligence technologies, serving as the cornerstone of the integration of universal robotics and general artificial intelligence.
 
