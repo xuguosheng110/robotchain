@@ -56,8 +56,8 @@ echo "deb [signed-by=/usr/share/geekros/pgp-key.public] https://ubuntu.geekros.c
 
 #### ➡ Compilation environment requirements:
 
-- Golang Version 1.18+
-- Python Version 3.8+
+- Golang Version ≥ 1.18.0
+- Python Version ≥ 3.8.0
 
 #### ➡ Explanation of source code directory structure:
 
