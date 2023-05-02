@@ -28,9 +28,7 @@
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
 
-```shell
-go get github.com/geekros/robotchain
-```
+✏ Content editing in progress...
 
 ## 🛸 Build
 

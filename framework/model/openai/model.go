@@ -7,8 +7,6 @@
 
 package OpenAI
 
-const modelsGetUrl = "/v1/models"
-
 var (
 	Gpt4                 = ModelName{Name: "gpt-4"}
 	Gpt40314             = ModelName{Name: "gpt-4-0314"}
