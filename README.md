@@ -54,7 +54,7 @@ echo "deb [signed-by=/usr/share/geekros/pgp-key.public] https://ubuntu.geekros.c
 
 > 🚨 Currently, it only supports running on Ubuntu 20.04+ operating system.
 
-### Compilation environment requirements:
+#### Compilation environment requirements:
 
 1. Golang Version 1.18+
 
