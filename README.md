@@ -64,6 +64,8 @@ sudo apt -y update && sudo apt -y install robotchain
 
 - Python Version ≥ 3.8.0
 
+- ROS2 Foxy
+
 #### ➡ Explanation of source code directory structure:
 
 ``` python
