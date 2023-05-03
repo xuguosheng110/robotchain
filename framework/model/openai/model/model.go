@@ -5,7 +5,7 @@
  ******************************************************************************
  */
 
-package OpenAI
+package model
 
 var (
 	Gpt4                 = ModelName{Name: "gpt-4"}
@@ -38,6 +38,6 @@ type ModelName struct {
 	Path string `json:"path"`
 }
 
-func (model ModelName) ModelName() ModelName {
-	return model
+func (model ModelName) ModelName() string {
+	return model.Name
 }

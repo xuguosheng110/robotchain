@@ -11,7 +11,7 @@ type RequestGetModel struct {
 }
 
 type ResponseGetModels struct {
-	Error ErrorMessage `json:"error,omitempty"`
+	Error ErrorMessage `json:"error"`
 	Data  []struct {
 		Id         string        `json:"id"`
 		Object     string        `json:"object"`
@@ -22,7 +22,7 @@ type ResponseGetModels struct {
 }
 
 type ResponseGetModel struct {
-	Error      ErrorMessage  `json:"error,omitempty"`
+	Error      ErrorMessage  `json:"error"`
 	Id         string        `json:"id"`
 	Object     string        `json:"object"`
 	OwnedBy    string        `json:"owned_by"`

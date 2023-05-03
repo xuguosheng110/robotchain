@@ -8,6 +8,7 @@
 package Command
 
 import (
+	ChatCommand "RobotChain/framework/command/chat"
 	ModelCommand "RobotChain/framework/command/model"
 	"RobotChain/framework/command/service"
 	"RobotChain/framework/command/version"
@@ -34,6 +35,8 @@ func Init() {
 	command.AddCommand(ServiceCommand.Start())
 
 	command.AddCommand(ModelCommand.Models())
+
+	command.AddCommand(ChatCommand.Chat())
 
 	if err := command.Execute(); err != nil {
 		os.Exit(1)

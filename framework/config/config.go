@@ -10,9 +10,14 @@ package Config
 var Get = &config{}
 
 type config struct {
-	Name      string `json:"name"`
-	Version   string `json:"version"`
-	Workspace string `json:"workspace"`
+	Name      string       `json:"name"`
+	Version   string       `json:"version"`
+	Workspace string       `json:"workspace"`
+	OpenAI    configOpenAi `json:"open_ai"`
+}
+
+type configOpenAi struct {
+	ApiKey string `json:"api_key"`
 }
 
 func Init() {
@@ -20,4 +25,7 @@ func Init() {
 	Get.Name = "RobotChain"
 	Get.Version = "1.0.0"
 	Get.Workspace = "/opt/workspace"
+
+	// OpenAI配置
+	Get.OpenAI.ApiKey = "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"
 }

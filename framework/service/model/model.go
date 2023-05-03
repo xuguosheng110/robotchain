@@ -1,29 +1,37 @@
 /**
  ******************************************************************************
- * @file    ping.go
+ * @file    model.go
  * @author  GEEKROS site:www.geekros.com github:geekros.github.io
  ******************************************************************************
  */
 
-package PingService
+package ModelService
 
 import (
-	"RobotChain/framework/config"
+	"RobotChain/framework/model/openai"
 	"RobotChain/framework/utils"
 	"github.com/gin-gonic/gin"
 )
 
-type requestPing struct {
-	Name    string `json:"name"`
-	Version string `json:"version"`
+type requestList struct {
+	OpenAI.ResponseGetModels
 }
 
-func Ping(c *gin.Context) {
+func List(c *gin.Context) {
 
-	returnData := requestPing{}
+	returnData := requestList{}
 
-	returnData.Name = Config.Get.Name
-	returnData.Version = Config.Get.Version
+	Utils.Success(c, 0, "", returnData)
+	return
+}
+
+type requestGet struct {
+	OpenAI.ResponseGetModel
+}
+
+func Get(c *gin.Context) {
+
+	returnData := requestGet{}
 
 	Utils.Success(c, 0, "", returnData)
 	return

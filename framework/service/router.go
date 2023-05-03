@@ -8,7 +8,8 @@
 package Service
 
 import (
-	PingService "RobotChain/framework/service/ping"
+	"RobotChain/framework/service/model"
+	"RobotChain/framework/service/ping"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -22,6 +23,13 @@ func Router() http.Handler {
 	router.Use(gin.Recovery())
 
 	router.GET("/", PingService.Ping)
+
+	model := router.Group("model")
+	{
+		model.GET("/list", ModelService.List)
+
+		model.GET("/get", ModelService.Get)
+	}
 
 	return router
 }
