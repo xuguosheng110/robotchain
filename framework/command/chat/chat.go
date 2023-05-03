@@ -9,6 +9,9 @@ package ChatCommand
 
 import (
 	"RobotChain/framework/model/openai"
+	"RobotChain/framework/model/openai/chat"
+	"RobotChain/framework/model/openai/model"
+	"context"
 	"fmt"
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
@@ -28,23 +31,24 @@ func Chat() *cobra.Command {
 			fmt.Println("[chat]：" + color.Gray.Text("Message sent successfully, waiting for platform feedback..."))
 			if len(args) == 2 {
 				if args[0] == "openai" {
-					base, err := OpenAI.NewBaseOpenAI()
-					if err.Error.Message != "" {
-						fmt.Println("[chat]：" + color.Red.Text(err.Error.Message))
+					ctx := context.Background()
+					openai := OpenAI.NewBaseOpenAI("", "")
+					client := OpenAIChat.NewChat(openai, OpenAIChatModel.GPT3p5Turbo)
+					response, err := client.ChatCompletion(ctx, &OpenAIChat.RequestParameter{
+						Messages: []*OpenAIChat.ChatMessage{
+							{Role: "user", Content: args[1]},
+						},
+						Temperature: 0.6,
+					})
+					if err != nil {
+						fmt.Println("[chat]：" + color.Red.Text(err.Error()))
 						return
 					}
-
-					request := OpenAI.NewChat(base).OnStream(OpenAI.RequestChat{
-						Model: OpenAI.GPT3p5Turbo.ModelName(),
-						Messages: []OpenAI.RequestChatMessage{{
-							Role:    "user",
-							Content: args[1],
-						}},
-						Temperature: 0,
-						Stream:      true,
-					})
-					data := request.Recv()
-					fmt.Println(request, data)
+					for _, choice := range response.Choices {
+						msg := choice.Message
+						fmt.Println("[chat]：" + color.Info.Sprintf("role=%q, content=%q", msg.Role, msg.Content))
+						return
+					}
 				} else {
 					fmt.Println("[chat]：" + color.Yellow.Text("Currently only the OpenAI platform is supported"))
 					return

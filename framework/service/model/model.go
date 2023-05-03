@@ -8,13 +8,11 @@
 package ModelService
 
 import (
-	"RobotChain/framework/model/openai"
 	"RobotChain/framework/utils"
 	"github.com/gin-gonic/gin"
 )
 
 type requestList struct {
-	OpenAI.ResponseGetModels
 }
 
 func List(c *gin.Context) {
@@ -26,7 +24,6 @@ func List(c *gin.Context) {
 }
 
 type requestGet struct {
-	OpenAI.ResponseGetModel
 }
 
 func Get(c *gin.Context) {

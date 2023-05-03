@@ -27,5 +27,5 @@ func Init() {
 	Get.Workspace = "/opt/workspace"
 
 	// OpenAI配置
-	Get.OpenAI.ApiKey = "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"
+	Get.OpenAI.ApiKey = "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"
 }
